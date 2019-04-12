@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>小红书</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper.css"/>
+	<style type="text/css">
+		*{padding: 0;margin: 0;list-style: none;}
+	
+	
+	</style>
+</head>
+<body>
+	<header>
+				<style type="text/css">
+			
+			.head .navbar{background: #fff;border: none;}
+			.head li a span{background: #fff;font-size: 14px;font-weight: 600;
+							margin-top: 5px;
+							}
+		
+			.header{width: 72px;height: 25px;margin: 0px 60px 13px 20px;}
+			.header1{width: 110px;text-align: center;}
+			.color_red{color: red;border-bottom: 2px solid red;;}
+		</style>
+	
+	
+	<div class="container head">
+		<nav class="navbar navbar-default navbar-fixed-top" >
+		    <div class="container"> 
+			    <div class="navbar-header">
+			        <button type="button" class="navbar-toggle" data-toggle="collapse"
+			                data-target="#navbar-collapse">
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			        </button>
+			        <a href=" " class="navbar-brand logo"><img src="img/logo.png" class="header"></a>
+			    </div>
+			    <div class="collapse navbar-collapse" id="navbar-collapse">
+			        <ul class="nav navbar-nav">
+			            <li class="header1"><a href="#"><span class="color_red">首页</span></a></li>
+			            <li class="header1"><a href="html/社区精选.html"><span>社区精选</span></a></li>
+				        <li class="header1"><a href="html/媒体报道.html"><span>媒体报道</span></a></li>
+				        <li class="header1"><a href="html/addindex.html"><span>加入我们</span></a></li>
+				        <li class="header1"><a href="html/zhaoshang.html"><span>招商合作</span></a></li>
+			        </ul>
+			    </div>
+		    </div>
+		</nav>
+	</div>
+	</header>
+	<!-- 大背景 -->
+	<style type="text/css">
+		.back{width: 100%;
+			height: 3200px;
+			background: #fbfbfb;}
+		.advert{max-width: 1180px;
+				/*height: 600px;*/
+				padding-top: 140px;
+				margin:0 auto;
+				}
+		.advert .advert_l{width: 400px;
+						
+						}
+		.advert_l span:nth-child(1){font-size: 48px;display: block;font-weight: bold;}
+		.advert_l span:nth-child(2){font-size: 48px;display: block;}
+		.advert img{width: 218px;display: block;}
+		.ios_a{margin: 57px 0 200px 0}
+		.advert .ios_a a span{display: inline-block;
+						width: 150px;height: 40px;background: #000;
+						font-size: 18px;
+						color:#fff;
+						line-height: 40px;
+						text-align: center;
+						border-radius: 5px;
+						font-weight:200;}
+		/*.advert .ios_a a span{
+						font-size: 18px;
+						}*/
+		.advert_r{width: 500px;height: 300px;}
+		.advert_r img{width: 500px;}
+		
+		#sp,#sp1{color: #000;}
+	</style>
+	<div class="back">
+		<!-- 广告窗  -->
+		<div class="advert clearfix">
+			<div class="advert_l fl">
+				<span id="sp1">小红书是</span>
+				<span id="sp"> </span>
+				<img src="img/world.jpg">
+				<div class="ios_a">
+					<a href="#"><span>ios 版</span></a>
+					<a href="#"><span>Android 版</span></a>
+					
+				</div>
+				
+			</div>
+			<div class="advert_r fr">
+				<img src="img/pc-1.png">
+			</div>
+		</div>
+
+
+		<!-- 手机 -->
+		<style type="text/css">
+			.iphone{width: 100%;height: 830px;
+					margin-top: 150px;
+					background: #ff2741}
+			.iphone .iphone1{max-width: 1180px;height: 830px;margin: 0 auto}
+			.iphone .iphone_l{height: 409px;margin-top: 210px;}
+
+
+			.iphone .gz{width: 400px;
+						margin:47px 0;
+						}
+			.iphone .gz1{font-size:20px;
+						color: #fff;
+						margin: 15px;}
+			.iphone .gz2 b{display: block;color: #fff;font-size: 20px;}
+			.iphone .gz2 b:nth-child(1){font-weight: 600;transition: ;}
+			.iphone .gz2 b:nth-child(2){width: 100px;height: 2px;background: hsla(0,0%,100%,.5)
+;}
+			.iphone .iphone_r{width:400px;height:830px;margin-top:-100px;
+							background: url(img/iphone.png) no-repeat center center;
+							background-size:400px;}
+					.iphone_r .pcc{width: 355px;
+									margin: 102px 23px;}
+					.iphone_r .pcc img{width: 100%;height: 100%;}
+					
+			.box .gz{cursor: pointer;}
+			.lon{display: block;width: 0px;height: 2px;background: #fff;}
+					
+		</style>
+	
+	
+		<div class="iphone">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-pause="none" data-interval="2000">
+				<div class="iphone1 clearfix">
+					<div class="iphone_l fl">
+						<ol class="box">
+					        <li data-target="#myCarousel" data-slide-to="0">
+					        	<div class="gz clearfix">
+									<div class="gz1 fl">01</div>
+									<div class="gz2 fl">
+										<b class="big">关注Foll</b>
+										<b class="long"><i class="lon"></i></b>
+										<b>日常点滴，不再错过</b>
+									</div>
+								</div>
+					        </li>
+					        <li data-target="#myCarousel" data-slide-to="1">
+					        	<div class="gz clearfix">
+									<div class="gz1 fl">02</div>
+									<div class="gz2 fl">
+										<b class="big">发现 Explore</b>
+										<b class="long"><i class="lon"></i></b>
+										<b>发现世界，分享生活</b>
+									</div>
+								</div>
+					        </li>
+					        <li data-target="#myCarousel" data-slide-to="2">
+					        	<div class="gz clearfix">
+									<div class="gz1 fl">03</div>
+									<div class="gz2 fl">
+										<b class="big">购买 Store</b>
+										<b class="long"><i class="lon"></i></b>
+										<b>爆款小众，应有尽有</b>
+									</div>
+								</div>
+					        </li>
+				   		</ol>
+						<!--<div class="swiper-pagination ccc" id="ccc"></div>-->
+						<!--<div class="gz clearfix">
+							<div class="gz1 fl">01</div>
+							<div class="gz2 fl">
+								<span>关注Foll</span>
+								<span></span>
+								<span>日常点滴，不再错过</span>
+							</div>
+					-->
+					</div>
+					<div class="iphone_r fr">
+						<div class="pcc">
+							<div class="carousel-inner">
+						        <div class="item active">
+						            <img src="img/1.jpg" alt="First slide">
+						            <div class="carousel-caption"></div>
+						        </div>
+						        <div class="item">
+						            <img src="img/2.jpg" alt="Second slide">
+						            <div class="carousel-caption"></div>
+						        </div>
+						        <div class="item">
+						            <img src="img/3.jpg" alt="Third slide">
+						            <div class="carousel-caption"></div>
+						        </div>
+						    </div>
+							<!--<div class="swiper-container">
+							  <div class="swiper-wrapper">
+							    <div class="swiper-slide"><img src="img/1.jpg" alt="" /></div>
+							    <div class="swiper-slide"><img src="img/2.jpg" alt="" /></div>
+							    <div class="swiper-slide"><img src="img/3.jpg" alt="" /></div>
+							  </div>
+							</div>-->
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+			<!--70million-->
+		<style>
+			.million{max-width:1180px;
+					margin: 100px auto;}
+			.million img{width: 484px;
+						height: 180px;
+						}
+			.million .kb{font-size: 36px;
+						font-weight: 600;
+						margin: 20px 0;}
+			.million span{display: block;
+						width: 120px;
+						height: 40px;
+						background: #000;
+						color: #fff;
+						font-size: 16px;
+						line-height: 40px;
+						text-align: center;
+						border-radius: 5px;
+						}				
+			
+		</style>
+
+		<div class="million">
+			<img src="img/70.png" alt="" />
+			<div class="kb">7000万用户的口碑分享</div>
+			<a href="#"><span>更多</span></a>
+		</div>
+		
+		<!--5个随机图片-->
+		<style type="text/css">
+			.px-5{max-width: 1180px;
+			height: 338px;	
+					margin: 0 auto;
+					overflow: hidden;}
+			.px-5 a{width: 220px;margin-right: 20px;display: block;
+					height: 338px;border-radius: 8px;overflow: hidden;
+					background: #fff;
+					list-style: none;
+					text-decoration:none;
+					color: none;
+					position: relative;
+					opacity: 0;}
+			.px-5 a:nth-child(5){margin-right: 0;}
+			.px-5 .zz{width: 220px;height: 338px;
+						background: #000;
+						opacity: 0.3;
+						position: absolute;
+						top: 0;left: 0;
+						display: none;}	
+			.px-5 .puu{width: 220px;
+					height: 338px;overflow: hidden;}
+			.px-5 .puu1{width: 220px;height: 220px;
+						line-height: 220px;
+						box-sizing: border-box;
+						}
+			.px-5 .puu1 img{width: 220px;height: 220px;}
+			.px-5 .bt1{display: block;width: 170px ;height:40px;font-size: 16px;margin: 10px auto;}
+			.px-5 .bt2{width: 190px ;height:30px;margin: 25px auto;}
+			.px-5 .name_l img{width: 28px;border-radius: 50%;}
+			.px-5 .name_r{height: 30px;line-height: 30px;background: url(img/xin.png)no-repeat left center;
+						background-size: 16px;
+						padding-left: 18px;}
+					
+		</style>
+		<div class="px-5 clearfix">
+			<a href="#" class="boxaa fl">
+				<div class="zz"></div>
+			</a>
+			<a href="#"  class="boxaa fl">
+				
+			</a>
+			<a href="#"  class="boxaa fl">
+				
+			</a>
+			<a href="#"  class="boxaa fl">
+				
+			</a>
+			<a href="#"  class="boxaa fl">
+				
+			</a>
+			
+				
+		</div>	
+		
+		
+		<!--地图-->
+		
+		<style type="text/css">
+			.world_vidio{width:1180px;
+					margin: 50px auto;}
+			
+			.world_vidio span:nth-child(1){display: block;
+											font-size: 48px;
+											font-weight: 800;
+											margin-top: 130px;}
+			.world_vidio span:nth-child(2){display: block;
+											font-size: 48px;
+											font-weight: 800;
+											}
+			.world_vidio span:nth-child(3){display: block;
+											font-size: 20px;
+											font-weight: 400;
+											}	
+			.world_vidio .world_r video{width: 830px;
+								height: 600px;}				
+		</style>
+		<div class="world_vidio clearfix">
+			<div class="world_l fl">
+				<span>全世界的</span>
+				<span>小红薯</span>
+				<span>与你一起，分享美好生活</span>
+			</div>
+			<div class="world_r fr">
+				<video src="img/world.mp4" autoplay="autoplay" preload="auto" loop="loop"></video>
+			</div>
+		</div>
+		
+
+	</div>
+	<!--底部-->
+	<style type="text/css">
+		.footer{
+			
+			width: 100%;
+			height: 300px;
+			background:#39393b;
+		}
+		.footer_t{overflow: hidden;
+				    padding: 50px 0;
+				    border-bottom: 1px solid hsla(0,0%,85%,.2);}
+		.footer_t .footer_tc{width: 940px;margin: 0 auto;}
+		    
+    .footer_t .footer_tc img{width: 214px;
+						    height: 87px;
+						    display: block;}
+			   .a_pc{margin-top: 10px;} 
+	 .footer_tc .ppc1,.ppc2,.ppc3,.ppc4{display: inline-block;width: 28px;height: 28px;
+	 						background-size: 28px;
+	 						
+	 						background: url(img/wx.jpg)no-repeat left center;}
+	  .footer_tc .ppc1{background: url(img/wx.jpg)no-repeat left center;}
+	  .footer_tc .ppc2{background: url(img/wb1.jpg)no-repeat left center;}
+	  .footer_tc .ppc3{background: url(img/ios.jpg)no-repeat left center;width: 60px;background-size: 51px;}
+	  .footer_tc .ppc4{background: url(img/az.jpg)no-repeat left center;width: 60px;background-size: 51px;}
+	  .tc_r{display: flex;}
+	  .tc_r .ng{margin-left: 20px;}
+	  .tc_r .ng img{width: 29px;height: 29px;}
+	  	.ng_r{margin-left: 20px;}
+	 	.ng_r .ng_sp{display: block;color: #d5d5d5;margin-bottom: 20px;font-size: 14px;}
+	 	.ng_r a{display: block;color: #d5d5d5;margin-bottom: 15px;font-size: 12px;}
+	 	.footer_bottom{width: 940px;
+	 					margin: 0 auto;}
+	 	.foo_t{text-align: center;margin:10px ;}
+	 	.foo_t a,.sppc{color: #d5d5d5;font-size: 12px;}
+	 	.footer_bottom .plc{background: url(img/plc.png)no-repeat right center;
+	 						background-size: 18px;
+	 						font-size: 12px;
+	 				color: #d5d5d5;width: 345px;
+	 				margin: 0 auto;}
+	 	@media screen and (max-width:950px){
+			.advert{padding-top: 80px;}
+			.advert_r{display: none;}
+			.advert_l{float: none;
+					margin: 0 auto;
+					padding-left: 50px;}
+			.iphone{margin-top: 0;background: #d5d5d5;height: 500px;}
+			.iphone_l{display: none;}
+			.iphone .iphone_r{margin: 0 auto;
+						background: none;
+						float: none;
+					}
+			.iphone .iphone_r{width: 280px;}
+			.iphone_r .pcc{margin: 0;
+							width: 280px;
+							height: 500px;}
+			.advert_l span:nth-child(1){font-size: 24px;}
+			.advert_l span:nth-child(2){font-size: 24px;}
+			/*.advert img{width: 150px;}*/
+			.advert .ios_a a span{width: 75px;
+   				 height: 20px;
+   				 line-height: 20px;
+   				 font-size: 14px;}
+   			.ios_a{margin: 20px auto;}
+   			.million img {
+					    width: 242px;
+					    height: 90px;}
+			.million .kb {
+    		font-size: 18px;}
+    		.million{width: 400px;
+    				margin: 20px auto;
+    				padding-left: 50px;
+    				}
+    		.million span{   
+    					 width: 60px;
+    					height: 30px;
+    					font-size: 16px;
+   						line-height: 30px;
+    					}
+    		.world_vidio{width: 315px;
+    					margin: 20px auto;}
+    		.back{background: #d5d5d5;height: 1600px;}
+    		.world_l{float: none;}
+    		.world_r{float: none;}
+    		.world_vidio .world_r video {
+							    width: 315px;
+							    height: 200px;
+							}
+			.world_vidio span:nth-child(1){font-size: 24px;margin-top: 30px;}			
+			.world_vidio span:nth-child(2){font-size: 24px;}
+			.px-5{width:320px;height: 225px;}
+			.px-5 a{width: 147px;margin-right: 12px;display: block;
+					height: 225px;border-radius: 5px;
+					background: #fff;
+					list-style: none;
+					text-decoration:none;
+					color: none;
+					position: relative;}	
+					
+			.px-5 .puu{width: 147px;
+					height: 225px;overflow: hidden;}
+			.px-5 .puu1{width: 147px;height: 147px;
+						line-height: 147px;
+						box-sizing: border-box;
+						}
+			.px-5 .puu1 img{width: 147px;height: 147px;}
+			.px-5 .bt1{display: block;width: 114px ;height:27px;font-size: 12px;margin: 7px auto;}
+			.px-5 .bt2{width: 127px ;height:20px;margin: 18px auto;}
+			.px-5 .name_l img{width: 16px;border-radius: 50%;}
+			.px-5 .name_r{height: 20px;line-height: 20px;background: url(img/xin.png)no-repeat left center;
+						background-size: 11px;
+						padding-left: 12px;}		
+			.px-5 a:nth-child(3) {display: none;}
+			.px-5 a:nth-child(4) {display: none;}
+			.px-5 a:nth-child(5) {display: none;}
+			.footer_bottom{display: none;}
+			.footer{height: 220px;}
+			.footer_t{padding: 10px 0;height: 220px;}
+			.footer_t .footer_tc{width: 250px;}
+			.a_pc{display: none;}
+			.footer_t .footer_tc img{width: 143px;
+    								height: 58px;}
+    		.tc_l{float: none;}
+    		.tc_r{float: none;margin-left: -50px;
+    			margin-top: 20px;}
+    		
+    		.ng_r .ng_sp{margin-bottom: 10px;font-size: 12px;}
+    		.ng_r a{margin-bottom: 5px;font-size: 10px;}
+		}
+	</style>
+	<div class="footer">
+		<div class="footer_t">
+			<div class="footer_tc clearfix">
+				<div class="tc_l fl">
+					<img src="img/logo-bottom.png" alt="" />
+					<div class="a_pc">
+						<a href="">
+							<span class="ppc1"></span>
+						</a>
+						<a href="">
+							<span class="ppc2"></span>
+						</a>
+						<a href="">
+							<span class="ppc3"></span>
+						</a>
+						<a href="">
+							<span class="ppc4"></span>
+						</a>
+					</div>
+				</div>
+				<div class="tc_r fr">
+					<div class="ng">
+						<!--<img class="fl" src="img/xiala1.png" alt="" />-->
+						<div class="fr ng_r">
+							<span class="ng_sp">公司相关</span>
+							<a href="#">加入我们</a>
+							<a href="#">招商合作</a>
+							<a href="#">关于我们</a>
+						</div>
+					</div>
+					<div class="ng">
+						<!--<img class="fl" src="img/xiala1.png" alt="" />-->
+						<div class="fr ng_r">
+							<span class="ng_sp">公司相关</span>
+							<a href="#">加入我们</a>
+							<a href="#">招商合作</a>
+							<a href="#">关于我们</a>
+						</div>
+					</div>
+					<div class="ng">
+						<!--<img class="fl" src="img/xiala1.png" alt="" />-->
+						<div class="fr ng_r">
+							<span class="ng_sp">公司相关</span>
+							<a href="#">加入我们</a>
+							<a href="#">招商合作</a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="footer_bottom">
+			<div class="foo_t">
+				<a href="#">沪ICP备 13030189号 Copyright © 2014-2018 行吟信息科技（上海）有限公司 |</a>
+				<span class="sppc"> 地址：上海市黄浦区马当路388号C座 |</span>
+				<span class="sppc">电话：021-64224530</span>
+			</div>
+			<div class="plc">www.xiaohongshu.com 2018 沪公网安备 31010102002533号</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/swiper.js"></script>
+	
+</body>
+</html>
+<script type="text/javascript">
+//	随机添加5个图片
+	var Boxaa = document.getElementsByClassName('boxaa');
+	var Zz = document.getElementsByClassName('zz');
+	var arr1 = ['<div class="puu"><div class="puu1"><img src="img/01.jpg" alt="" /></div><span class="bt1">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</span><div class="bt2 clearfix"><div class="fl name_l"><img src="img/tx1.jpg" alt="" /><span class="name">某某某</span></div><div class="fr name_r">9999</div></div></div><div class="zz"></div>','<div class="puu"><div class="puu1"><img src="img/02.jpg" alt="" /></div><span class="bt1">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</span><div class="bt2 clearfix"><div class="fl name_l"><img src="img/tx1.jpg" alt="" /><span class="name">某某某</span></div><div class="fr name_r">9999</div></div></div><div class="zz"></div>','<div class="puu"><div class="puu1"><img src="img/03.jpg" alt="" /></div><span class="bt1">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</span><div class="bt2 clearfix"><div class="fl name_l"><img src="img/tx1.jpg" alt="" /><span class="name">某某某</span></div><div class="fr name_r">9999</div></div></div><div class="zz"></div>','<div class="puu"><div class="puu1"><img src="img/04.jpg" alt="" /></div><span class="bt1">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</span><div class="bt2 clearfix"><div class="fl name_l"><img src="img/tx1.jpg" alt="" /><span class="name">某某某</span></div><div class="fr name_r">9999</div></div></div><div class="zz"></div>','<div class="puu"><div class="puu1"><img src="img/05.jpg" alt="" /></div><span class="bt1">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</span><div class="bt2 clearfix"><div class="fl name_l"><img src="img/tx1.jpg" alt="" /><span class="name">某某某</span></div><div class="fr name_r">9999</div></div></div><div class="zz"></div>','<div class="puu"><div class="puu1"><img src="img/06.jpg" alt="" /></div><span class="bt1">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</span><div class="bt2 clearfix"><div class="fl name_l"><img src="img/tx1.jpg" alt="" /><span class="name">某某某</span></div><div class="fr name_r">9999</div></div></div><div class="zz"></div>','<div class="puu"><div class="puu1"><img src="img/08.jpg" alt="" /></div><span class="bt1">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</span><div class="bt2 clearfix"><div class="fl name_l"><img src="img/tx1.jpg" alt="" /><span class="name">某某某</span></div><div class="fr name_r">9999</div></div></div><div class="zz"></div>','<div class="puu"><div class="puu1"><img src="img/09.jpg" alt="" /></div><span class="bt1">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</span><div class="bt2 clearfix"><div class="fl name_l"><img src="img/tx1.jpg" alt="" /><span class="name">某某某</span></div><div class="fr name_r">9999</div></div></div><div class="zz"></div>','<div class="puu"><div class="puu1"><img src="img/010.jpg" alt="" /></div><span class="bt1">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</span><div class="bt2 clearfix"><div class="fl name_l"><img src="img/tx1.jpg" alt="" /><span class="name">某某某</span></div><div class="fr name_r">9999</div></div></div><div class="zz"></div>','<div class="puu"><div class="puu1"><img src="img/011.jpg" alt="" /></div><span class="bt1">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</span><div class="bt2 clearfix"><div class="fl name_l"><img src="img/tx1.jpg" alt="" /><span class="name">某某某</span></div><div class="fr name_r">9999</div></div></div><div class="zz"></div>'];
+	var arr2 = [];
+	var timer = null;
+	
+//	封装的随机数和查重函数
+	function rnd(n,m){
+			return parseInt(Math.random()*(m-n)+n);
+		}
+	function findInArr(item,arr){
+			for(var i=0;i<arr.length;i++){
+				if(arr[i]==item){
+					return true;
+				}
+			}
+			return false;
+		}
+	for(var i=0;i<Boxaa.length;i++){
+			var nb = rnd(0,arr1.length);   //附一个随机数，
+			if(!findInArr(arr1[nb],arr2)){  //查重arr1中的随机某个数据和arr2，没查到就放到arr2中的第i个位子。
+				arr2.push(arr1[nb]);
+			}else{
+				i--;
+			}
+		}
+		console.log(arr2);
+		for(var i = 0;i<arr2.length;i++){
+			Boxaa[i].innerHTML = arr2[i];
+			Boxaa[i].style.transition = 'all ease 1s';
+			Boxaa[i].style.opacity = '1';
+		}
+	timer = setInterval(function(){
+		var arr2 = [];								//定时器开启时，先清空arr2，并且放进盒子。
+		for(var i = 0;i<arr2.length;i++){
+			Boxaa[i].innerHTML = arr2[i];
+			
+			Boxaa[i].style.opacity = '0';
+		}
+		for(var i=0;i<Boxaa.length;i++){
+			var nb = rnd(0,arr1.length);   		//附一个随机数，
+			if(!findInArr(arr1[nb],arr2)){		//查重arr1中的随机某个数据和arr2，没查到就放到arr2中的第i个位子。
+				arr2.push(arr1[nb]);
+			}else{
+				i--;
+			}
+		}
+		console.log(arr2);
+		for(var i = 0;i<arr2.length;i++){		//把arr2中的第i个放到第i个盒子里
+			Boxaa[i].innerHTML = arr2[i];
+			Boxaa[i].style.transition = 'all ease 1s';
+			Boxaa[i].style.opacity = '1';
+		}
+		
+	},3000)
+	
+	
+	for(var i=0;i<Boxaa.length;i++){
+		Boxaa[i].index = i;
+		Boxaa[i].onmouseover = function(){
+			Zz[this.index].style.display = 'block';
+		}
+		Boxaa[i].onmouseout = function(){
+			Zz[this.index].style.display = 'none';
+		}
+	}
+		
+	
+	
+	
+	
+	 var Big = document.getElementsByClassName('big');
+	 var Long = document.getElementsByClassName('long');
+	 var Lon = document.getElementsByClassName('lon');
+	 var Gz = document.getElementsByClassName('gz');
+	 var Gz1 = document.getElementsByClassName('gz1');
+	var pc=0;
+	var pv=0;
+// 轮播图效果
+//	先运行一次让第一张图对应的内容在刷新页面的时候就实现
+	  	     
+		        for(var i=0;i<Big.length;i++){
+		        	Big[i].style.fontSize = '20px';
+		        	Long[i].style.width = '100px';
+		        	Lon[i].style.transition = 'all ease ';
+		        	Gz1[i].style.transition = 'all ease 0.5s';
+		        	Gz1[i].style.marginTop = '15px';
+		        	
+		        	Lon[i].style.width = '0px';
+		        	
+		        }
+		        Big[pc].style.transition = 'all ease 0.5s';
+		        Gz1[pc].style.transition = 'all ease 0.5s';
+		        Lon[pc].style.transition = 'all ease 2s';
+		        Big[pc].style.fontSize = '40px';
+		        Long[pc].style.width = '200px';
+		        Lon[pc].style.width = '200px';
+		        Gz1[pc].style.marginTop = '30px';
+		        
+		        
+		        	pc++;
+		        	
+		        	if(pc==Big.length){
+		        		pc=0;
+		        	}
+		        	
+		       
+		       
+		        
+	$(function(){
+		    $('#myCarousel').on('slide.bs.carousel', function () {
+		      
+		      	var timer = clearTimeout;
+		      	var timer1 = setInterval;
+		        
+		        for(var i=0;i<Big.length;i++){
+		        	Big[i].style.fontSize = '20px';
+		        	Long[i].style.width = '100px';
+		        	Lon[i].style.transition = 'all ease ';
+		        	Gz1[i].style.transition = 'all ease 0.5s';
+		        	Lon[i].style.width = '0px';
+		        	Gz1[i].style.marginTop = '15px';
+		        	
+		        }
+		       
+		        Big[pc].style.transition = 'all ease 0.5s';
+		        Gz1[pc].style.transition = 'all ease 0.5s';
+		        Lon[pc].style.transition = 'all ease 2s';
+		        Big[pc].style.fontSize = '40px';
+		        Long[pc].style.width = '200px';
+		        Lon[pc].style.width = '200px';
+		        Gz1[pc].style.marginTop = '30px';
+		         
+		        
+//		        timer = setTimeout(function(){
+		        	pc++;
+		        	if(pc==Big.length){
+		        		pc=0;
+		        	}
+		        	
+//		        },2000)
+		        
+		    });
+		});
+		for(var i=0;i<Gz.length;i++){
+			Gz[i].index = i;
+			Gz[i].onclick = function(){
+				pc=this.index;
+				
+			}
+		}
+		
+		
+	
+
+
+//		小红书是******
+	var sp = document.getElementById('sp');
+	var n = 0;
+	var m = 0;
+	var arr = ['我的种草基地','剁手神器','手机里的随身手账','我的生活态度','品质生活指南','全世界的好生活']
+	
+	var timer = null;
+	timer = setInterval(function(){
+		n++;
+		sp.innerHTML = arr[m].substring(0,n)+'|';
+		if(sp.innerHTML == arr[m]+'|'){
+			m++;
+			n=0;
+		}
+		if(m==arr.length){
+			m=0;
+		}
+		
+	},250)
+</script>
