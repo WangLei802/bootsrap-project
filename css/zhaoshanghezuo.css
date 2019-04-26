@@ -1,0 +1,45 @@
+@charset "utf-8";
+/*******************************头部开始*******************************/
+		header{background:#f0f0f0;position:fixed;top:0;left:0;width:100%;z-index:999;}
+		.center{margin:0 auto;line-height:50px;}
+		.header-img{width:100px;height:50px;}
+		.zi-4>a{font-size:16px;width:50px;}
+		.abs{position:fixed;top:10px;right:20px;background:#f4f4f4;display:none;}
+		a{}	
+
+		/*******************************头部结束*******************************/
+		/*******************************申请开始*******************************/
+		.zshz-sq{margin-top:100px;}
+		.zshz-img{width:100%;}
+		.zshz-sq-p{margin-top:30px;}
+		.zshz-sq-redbook{font-size:42px;font-weight:bold;}
+		.zshz-sq-redjs{font-size:22px;font-weight:bold;}
+		.zshz-sq-p-content{font-size:16px;}
+		.zshz-sq-a{width:200px;height:50px;border-radius:25px;background:red;line-height:30px;}
+		/*******************************申请结束*******************************/
+		/******************************流程图开始******************************/
+		/******************************流程图开始******************************/
+		.zshz-lct-div{background:#f4f4f4;padding:50px 0;box-sizing:border-box;}
+		.zshz-lct{font-size:25px;margin-bottom:25px;}
+		.zshz-lct-cont{margin-bottom:5s0px;}
+		/******************************流程图结束******************************/
+		/*****************************入驻指南开始******************************/
+		.zshz-ruzhu{margin-top:30px;position:relative;}
+		.ruzhu-active{border-bottom:2px solid blue;box-sizing:border-box;}
+		.zshz-ruzhu-p{font-size:18px;font-weight:bold;}
+		.zshz-ruzhu-p1{font-size:14px;}
+		#zshz-ul{position:relative;}
+		#zshz-ul>li{position:absolute;top:0;left:0;display:none;}
+		#zshz-ul>li.rz-active{display:block;}
+		.zshz-gsxx{font-size:18px;}
+		.zshz-xx>p{font-size:16px;}
+		/*****************************入驻指南结束******************************/
+		/*****************************常见问题开始*****************************/
+		.zshz-wenti-btn{border-radius:16px;background:#f4f4f4;font-size:20px;margin-bottom:10px;}
+		.font-q{font-size:20px;}
+		.font-a{font-size:18px;color:#818181;}
+		.wen-ul{position:relative;}
+		.wen-ul>li{position:absolute;top:0;left:0;display:none;}
+		.wen-ul>li.wen-active{display:block;}
+		.wen-active1{background:#333;color:#fff;}
+		/*****************************常见问题结束*****************************/
